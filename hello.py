@@ -12,11 +12,16 @@ buttonLeft.pull = digitalio.Pull.DOWN
 buttonRight.pull = digitalio.Pull.DOWN
 
 while True:
-#    servo0.angle = servoAngle
+    servo0.angle = servoAngle
 
-#    if buttonLeft.value:
-#        servoAngle -= 1
-#    if buttonRight.value:
-#        servoAngle += 1
+    if buttonLeft.value:
+        if servoAngle != 0:
+            servoAngle -= 1
+            time.sleep(0.01)
+            print(servoAngle)
 
-    print(buttonRight.value)
+    if buttonRight.value:
+        if servoAngle != 180:
+            servoAngle += 1
+            time.sleep(0.01)
+            print(servoAngle)
