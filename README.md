@@ -1,14 +1,13 @@
-# CircuitPython
-This repository will actually serve as an aid to help you get started with your own template.  You should copy the raw form of this readme into your own, and use this template to write your own.  If you want to draw inspiration from other classmates, feel free to check [this directory of all students!](https://github.com/chssigma/Class_Accounts).
-## Table of Contents
-* [Table of Contents](#TableOfContents)
-* [Hello_CircuitPython](#Hello_CircuitPython)
-* [CircuitPython_Servo](#CircuitPython_Servo)
-* [CircuitPython_LCD](#CircuitPython_LCD)
-* [NextAssignmentGoesHere](#NextAssignment)
----
+<h1> CircuitPython</h1>
+<p>This is my engineering 3 notebook for the 2023-2024 school year! This readme will be the home of my documentation for all of the non-project assignments this year.</p>
 
-## Hello_CircuitPython
+<h2> Table of Contents</h2>
+<ul>
+<li><a href="#TableOfContents"> Table of Contents</a></li>
+<li><a href="#CircuitPython_Servo"> CircuitPython Servo</a></li>
+</ul><hr>
+
+<h2>CircuitPython Servo</h2>
 
 ### Description & Code
 Description goes here
@@ -87,44 +86,3 @@ while True:
 ### Wiring
 
 ![WiringSolution](images/I2C_M4_Solution.png)
-
-
-
-
-
-
-## CircuitPython_LCD
-
-### Description & Code
-
-```python
-Code goes here
-
-```
-
-### Evidence
-
-Pictures / Gifs of your work should go here.  You need to communicate what your thing does.
-
-### Wiring
-
-### Reflection
-
-
-
-
-
-## NextAssignment
-
-### Description & Code
-
-```python
-Code goes here
-
-```
-
-### Evidence
-
-### Wiring
-
-### Reflection
