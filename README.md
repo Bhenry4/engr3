@@ -9,80 +9,46 @@
 
 <h2>CircuitPython Servo</h2>
 
-### Description & Code
-Description goes here
-
-Here's how you make code look like code:
+<h3>Description & Code</h3>
+<p>In this assignment, we were supposed to have a servo sweep its full length. Once we finished that, we were supposed to control it with a set of buttons. Finally, we were supposed to replace the buttons with capacative touch, which is what I have documented</p><br>
 
 ```python
-Code goes here
-
-```
-
-
-### Evidence
-
-
-![spinningMetro_Optimized](https://user-images.githubusercontent.com/54641488/192549584-18285130-2e3b-4631-8005-0792c2942f73.gif)
-
-
-And here is how you should give image credit to someone if you use their work:
-
-Image credit goes to [Rick A](https://www.youtube.com/watch?v=dQw4w9WgXcQ&scrlybrkr=8931d0bc)
-
-
-
-### Wiring
-Make an account with your Google ID at [tinkercad.com](https://www.tinkercad.com/learn/circuits), and use "TinkerCad Circuits to make a wiring diagram."  It's really easy!  
-Then post an image here.   [here's a quick tutorial for all markdown code, like making links](https://guides.github.com/features/mastering-markdown/)
-
-### Reflection
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience?  Your ultimate goal for the reflection is to pass on the knowledge that will make this assignment better or easier for the next person.
-
-
-
-
-## How To Fix the LCD power issue with Metro M4 boards.
-
-### Description & Code
-
-* **The symptoms:**  LCD acting weird OR trouble with usb connection / serial monitor / uploading / etc.
-* **The problem :** The LCDs occasionally draw too much power when we turn on the boards, and that makes parts of its serial communications crash.
-* **The Solution:** Add this code, and wire a switch up, like the wiring diagram below:
-
-
-
-```python
-import board
+import pwmio, board, touchio
+from adafruit_motor import servo
 import time
-import digitalio
-from lcd.lcd import LCD
-from lcd.i2c_pcf8574_interface import I2CPCF8574Interface
 
-# turn on lcd power switch pin
-lcdPower = digitalio.DigitalInOut(board.D8)
-lcdPower.direction = digitalio.Direction.INPUT
-lcdPower.pull = digitalio.Pull.DOWN
+pwm = pwmio.PWMOut(board.D12, duty_cycle=2**15, frequency=50) # The servo is set up with pwm
+servo0 = servo.Servo(pwm)
+servoAngle = 90
 
-# Keep the I2C protocol from running until the LCD has been turned on
-# You need to flip the switch on the breadboard to do this.
-while lcdPower.value is False:
-    print("still sleeping")
-    time.sleep(0.1)
+buttonLeft = touchio.TouchIn(board.A0) # sets up capacative touch with the wires
+buttonRight = touchio.TouchIn(board.A1)
 
-# Time to start up the LCD!
-time.sleep(1)
-print(lcdPower.value)
-print("running")
-
-i2c = board.I2C()
-lcd = LCD(I2CPCF8574Interface(i2c, 0x27), num_rows=2, num_cols=16)
-
-
-# Loop forever.
 while True:
+    servo0.angle = servoAngle
 
+    if buttonLeft.value:
+        if servoAngle != 0: # angle vals error if less than 0
+            servoAngle -= 1
+            time.sleep(0.01)
+            print(servoAngle)
+
+    if buttonRight.value:
+        if servoAngle != 180: # angle vals error if greater than 180
+            servoAngle += 1
+            time.sleep(0.01)
+            print(servoAngle)
 ```
-### Wiring
 
-![WiringSolution](images/I2C_M4_Solution.png)
+
+<h3>Evidence</h3>
+
+<video src="media/servo.mp4" type="video/mp4"></video>
+
+
+
+<h3>Wiring</h3>
+<img src="media/servoWiring.png">
+
+<h3>Reflection</h3>
+<p>This assignment served as a good introduction to using libraries in curcuitpython. It was also cool to see capacative touch working. One issue a ran into was the angle values going out of range, which was fixed by adding checks before incrementing or decrementing it.
