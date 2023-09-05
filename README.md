@@ -43,7 +43,7 @@ while True:
 
 <h3>Evidence</h3>
 
-<video src="media/servo.mp4" type="video/mp4"></video>
+<img src="media/servo.png">
 
 
 
