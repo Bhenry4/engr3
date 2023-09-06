@@ -10,17 +10,14 @@
 <h2>CircuitPython Servo</h2>
 
 <h3>Description & Code</h3>
-<p>In this assignment, we were supposed to have a servo sweep its full length. Once we finished that, we were supposed to control it with a set of buttons. Finally, we were supposed to replace the buttons with capacative touch, which is what I have documented</p>
-<a href=servo.py>Code</a><br>
+<p>In this assignment, we were supposed to have a servo sweep its full length, using the adafruit_motor library. Once we finished that, we were supposed to control it with a set of buttons. Finally, we were supposed to replace the buttons with capacative touch, which is what I have documented</p>
+<a href=servo.py>Code</a><br><br>
 
 <h3>Evidence</h3>
-
-<img src="media/servo.png">
-
-
+<img src="media/servo.png"><br>
 
 <h3>Wiring</h3>
-<img src="media/servoWiring.png">
+<img src="media/servoWiring.png"><br>
 
 <h3>Reflection</h3>
-<p>
+<p>To start off, I looked at the <a href=https://learn.adafruit.com/circuitpython-essentials/circuitpython-servo>adafruit tutorial</a>, which provided recommended libraries and example code that happened to serve the assignment's purpose. It was a bit long winded, though. Wiring up the buttons was pretty simple, as I had done it last year. One thing that made it easier was the existence of internal pull-down resistors, which I could control with code, using the <pre>DigitalIO</pre> library.</p>
