@@ -5,13 +5,24 @@ import time
 trig = board.D8
 echo = board.D9
 #sensor = adafruit_hcsr04.HCSR04(trig, echo)
-led = neopixel.NeoPixel(board.NEOPIXEL, 1, brightness=0.01)
+led = neopixel.NeoPixel(board.NEOPIXEL, 1, brightness=0.1)
 
-while True:
+colorList=[]
+for b in range(0,256):
+    colorList.append((255,0,b))
+for r in range(255,-1,-1):
+    colorList.append((r,0,255))
+for g in range(0,256):
+    colorList.append((0,g,255))
+for b in range(255,-1,-1):
+    colorList.append((0,255,b))
+
+#while True:
     # try:
     #     print(sensor.distance)
     # except:
     #     print("Timed Out")
     # time.sleep(0.1)
-    led[0] = (255,0,255)
-    time.sleep(0.1)
+for color in colorList:
+    led[0] = color
+    time.sleep(0.01)
