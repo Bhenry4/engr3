@@ -12,6 +12,7 @@ for b in range(0,256):
     colorList.append((255,0,b))
 for r in range(255,-1,-1):
     colorList.append((r,0,255))
+    print(len(colorList))
 for g in range(0,256):
     colorList.append((0,g,255))
 for b in range(255,-1,-1):
@@ -19,11 +20,10 @@ for b in range(255,-1,-1):
 
 while True:
     try:
-        scaledDistance = (1024/30) * sensor.distance
-        if scaledDistance > 1024:
-            scaledDistance = 0
+        scaledDistance = (1024/30) * sensor.distance-5
+        print(sensor.distance)
+
+        led[0] = colorList[int(scaledDistance)]
+        time.sleep(0.01)
     except:
-        print("Timed Out")
-    
-    led[0] = colorList[int(scaledDistance)]
-    time.sleep(0.01)
+        print("Too high or low")
