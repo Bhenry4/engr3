@@ -24,6 +24,6 @@ while True:
         print(sensor.distance)
 
         led[0] = colorList[int(scaledDistance)]
-        time.sleep(0.01)
+        time.sleep(0.1)
     except:
         print("Too high or low")
