@@ -20,6 +20,8 @@ for b in range(255,-1,-1):
 while True:
     try:
         scaledDistance = (1024/30) * sensor.distance
+        if scaledDistance > 1024:
+            scaledDistance = 0
     except:
         print("Timed Out")
     
