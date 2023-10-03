@@ -2,13 +2,20 @@
 <p>This is my engineering 3 notebook for the 2023-2024 school year! This readme will be the home of my documentation for all of the non-project assignments this year.</p>
 
 <h2> Table of Contents</h2>
+<h3>Code</h3>
 <ul>
-<li><a href="#TableOfContents"> Table of Contents</a></li>
-<li><a href="#CircuitPythonServo"> CircuitPython Servo</a></li>
-<li><a href="#DistanceSensor"> Distance Sensor</a></li>
-</ul><hr>
+<li><a href="#TableOfContents">Table of Contents</a></li>
+<li><a href="#CircuitPythonServo">CircuitPython Servo</a></li>
+<li><a href="#DistanceSensor">Distance Sensor</a></li>
+<li><a href="#MotorControl">Motor Control</a></li>
+<li><a href="#Photointerrupter">Photointerrupter</a></li>
+</ul>
+<h3>CAD</h3>
+<ul>
+<li><a href="#Hanger">Hanger</a></li>
+</ul><br>
 
-
+<h1>Code</h1>
 <h2 name="CircuitPythonServo">CircuitPython Servo</h2>
 
 <h3>Description & Code</h3>
@@ -56,7 +63,7 @@ https://github.com/Bhenry4/engr3/assets/82593996/76a8b65c-c936-4b85-b5dc-c69de8d
 <h3>Reflection</h3>
 <p>To start off, I used the wiring diagram provided in the assignment to wire the motor as well as my wiring diagram from last year to wire the potentiometer. The code was pretty simple, just taking input with the <code>AnalogIO</code> library and outputting it with the same library, without needing a conversion, thanks to the digital-to-analog converter on A0.</p>
 
-<h2 name="Photointerruptor">Photointerruptor</h2>
+<h2 name="Photointerrupter">Photointerrupter</h2>
 
 <h3>Description & Code</h3>
 <p>In this assignment, we were supposed to read the input of a photointerrupter, which just reads high if a beam inside it is broken.</p>
@@ -70,3 +77,19 @@ https://github.com/Bhenry4/engr3/assets/82593996/76a8b65c-c936-4b85-b5dc-c69de8d
 
 <h3>Reflection</h3>
 <p>To start off, I used the wiring  provided in the assignment to wire the photointerrupter. Additionally, the wires on the photointerrupter I grabbed were well color coded. The code was somewhat simple, just taking input with the <code>DigitalIO</code> library and incrementing a counter every time it activated. The tricky part came when I needed to print status every 4 seconds, due to <code>time.sleep()</code> stopping the code from counting. So, I used <code>time.monotonic()</code>, which says how many seconds have passed since the program start.</p>
+
+<br><h1>CAD</h1>
+
+<h2 name="Hanger">Hanger</h2>
+
+<h3>Description & Code</h3>
+<p>In this assignment, we were supposed to make an object in onshape based off of a drawing.</p>
+
+<h3>Evidence</h3>
+<img src="media/HangerTrimetric.png">
+<img src="media/HangerFront.png">
+<img src="media/HangerTop.png">
+
+
+<h3>Reflection</h3>
+<p>This was a fairly straightforward drawing, good for a reintroduction to modelling off of them. After I got my onshape brain back on and figured out what plane I needed to start on(front), it went pretty smoothly. The only issue I ran into was the slots not extruding through because they were drawn on the top plane, instead of the top of the extrude.</p>
