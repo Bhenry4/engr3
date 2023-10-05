@@ -13,6 +13,7 @@
 <h3>CAD</h3>
 <ul>
 <li><a href="#Hanger">Hanger</a></li>
+<li><a href="#SwingArm">Swing Arm</a></li>
 </ul><br>
 
 <h1>Code</h1>
@@ -93,3 +94,18 @@ https://github.com/Bhenry4/engr3/assets/82593996/76a8b65c-c936-4b85-b5dc-c69de8d
 
 <h3>Reflection</h3>
 <p>This was a fairly straightforward drawing, good for a reintroduction to modelling off of them. After I got my onshape brain back on and figured out what plane I needed to start on(front), it went pretty smoothly. The only issue I ran into was the slots not extruding through because they were drawn on the top plane, instead of the top of the extrude.</p>
+
+<h2 name="SwingArm">Swing Arm</h2>
+
+<h3>Description & Code</h3>
+<p>In this assignment, we were supposed to make a more complicated object in onshape based off of several drawings. Additionally, we needed to use variables and then change them and see if it worked.</p>
+
+<h3>Evidence</h3>
+<img src="media/SwingArmTrimetric.png">
+<img src="media/SwingArmSide.png">
+<img src="media/SwingArm2Trimetric.png">
+<img src="media/SwingArm2Side.png">
+
+
+<h3>Reflection</h3>
+<p>This was a much more complex drawing, . After I got my onshape brain back on and figured out what plane I needed to start on(front), it went pretty smoothly. The only issue I ran into was the slots not extruding through because they were drawn on the top plane, instead of the top of the extrude.</p>
