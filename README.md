@@ -108,4 +108,4 @@ https://github.com/Bhenry4/engr3/assets/82593996/76a8b65c-c936-4b85-b5dc-c69de8d
 
 
 <h3>Reflection</h3>
-<p>This was a much more complex drawing, . After I got my onshape brain back on and figured out what plane I needed to start on(front), it went pretty smoothly. The only issue I ran into was the slots not extruding through because they were drawn on the top plane, instead of the top of the extrude.</p>
+<p>This was a much more complex drawing, with variables, multiple views, and complex relations. After a few false starts, I started with the concentric circles, then the main beams coming out, the connecting beams and finally the ridges down the outside. Then, I used three extrudes to get the various levels. Finally, I made the holes at the end, and the arcs to go along with them, and added in the fillets.</p>
