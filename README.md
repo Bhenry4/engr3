@@ -14,6 +14,7 @@
 <ul>
 <li><a href="#Hanger">Hanger</a></li>
 <li><a href="#SwingArm">Swing Arm</a></li>
+<li><a href="#MultiPartDesign">Multi Part Design Practice</a></li>
 </ul><br>
 
 <h1>Code</h1>
@@ -109,3 +110,18 @@ https://github.com/Bhenry4/engr3/assets/82593996/76a8b65c-c936-4b85-b5dc-c69de8d
 
 <h3>Reflection</h3>
 <p>This was a much more complex drawing, with variables, multiple views, and complex relations. After a few false starts, I started with the concentric circles, then the main beams coming out, the connecting beams and finally the ridges down the outside. Then, I used three extrudes to get the various levels. Finally, I made the holes at the end, and the arcs to go along with them, and added in the fillets.</p>
+
+<h2 name="MultiPartDesign">Multi Part Design Practice</h2>
+
+<h3>Description & Code</h3>
+<p>In this assignment, we were supposed to make a quite complicated object in onshape based off of several drawings. Additionally, it had multiple parts that needed to be made in one part studio, and was the first time I worked with "design intent" page.</p>
+
+<h3>Evidence</h3>
+<img src="media/MultipartQ1.png">
+<img src="media/MultipartQ2.png">
+<img src="media/MultipartQ3.png">
+<img src="media/MultipartQ4.png">
+
+
+<h3>Reflection</h3>
+<p>This drawing was split up into a <em>design intent</em> section, which showed how all the parts fit together and were relationed, and a section that had the diminsions of each part floating in space. The sections would have some dimensions in parentheses, meaning that those were defined in relation to other parts, meaning I had to look at the design intent. A tricky thing I ran in to was that the cylinder's material changed to lead for the last step, something you might not notice on first inspection of the drawing.</p>
