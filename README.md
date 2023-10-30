@@ -1,7 +1,7 @@
-<h1> CircuitPython</h1>
+<h1>Engineering 3</h1>
 <p>This is my engineering 3 notebook for the 2023-2024 school year! This readme will be the home of my documentation for all of the non-project assignments this year.</p>
 
-<h2> Table of Contents</h2>
+<h2 name="TableOfContents"> Table of Contents</h2>
 <h3>Code</h3>
 <ul>
 <li><a href="#TableOfContents">Table of Contents</a></li>
@@ -84,8 +84,9 @@ https://github.com/Bhenry4/engr3/assets/82593996/76a8b65c-c936-4b85-b5dc-c69de8d
 
 <h2 name="Hanger">Hanger</h2>
 
-<h3>Description & Code</h3>
+<h3>Description & Onshape Document</h3>
 <p>In this assignment, we were supposed to make an object in onshape based off of a drawing.</p>
+<a href="https://cvilleschools.onshape.com/documents/3656c37de160df186ad31460/w/97f88d540f066ce1a1b3d70c/e/b28c79e86819e6866ffaf17a">Onshape Document</a>
 
 <h3>Evidence</h3>
 <img src="media/HangerTrimetric.png">
@@ -98,8 +99,9 @@ https://github.com/Bhenry4/engr3/assets/82593996/76a8b65c-c936-4b85-b5dc-c69de8d
 
 <h2 name="SwingArm">Swing Arm</h2>
 
-<h3>Description & Code</h3>
+<h3>Description & Onshape Document</h3>
 <p>In this assignment, we were supposed to make a more complicated object in onshape based off of several drawings. Additionally, we needed to use variables and then change them and see if it worked.</p>
+<a href="https://cvilleschools.onshape.com/documents/0042a82a520dba5df34d9cc9/w/57d6eb520e93e28e07bff5b4/e/c636c7db1ea152cafce984da">Onshape Document</a>
 
 <h3>Evidence</h3>
 <img src="media/SwingArmTrimetric.png">
@@ -113,8 +115,9 @@ https://github.com/Bhenry4/engr3/assets/82593996/76a8b65c-c936-4b85-b5dc-c69de8d
 
 <h2 name="MultiPartDesign">Multi Part Design Practice</h2>
 
-<h3>Description & Code</h3>
+<h3>Description & Onshape Document</h3>
 <p>In this assignment, we were supposed to make a quite complicated object in onshape based off of several drawings. Additionally, it had multiple parts that needed to be made in one part studio, and was the first time I worked with "design intent" page.</p>
+<a href="https://cvilleschools.onshape.com/documents/7b0711740bd21a4c8ef6a8fd/w/5e5197d2452925ab155713f4/e/06119b992c4f9479801a02ab">Onshape Document</a>
 
 <h3>Evidence</h3>
 <img src="media/MultipartQ1.png">
