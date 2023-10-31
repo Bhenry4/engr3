@@ -15,6 +15,7 @@
 <li><a href="#Hanger">Hanger</a></li>
 <li><a href="#SwingArm">Swing Arm</a></li>
 <li><a href="#MultiPartDesign">Multi Part Design Practice</a></li>
+<li><a href="#VBLOCK">V-Block</a></li>
 </ul><br>
 
 <h1>Code</h1>
@@ -128,3 +129,20 @@ https://github.com/Bhenry4/engr3/assets/82593996/76a8b65c-c936-4b85-b5dc-c69de8d
 
 <h3>Reflection</h3>
 <p>This drawing was split up into a <em>design intent</em> section, which showed how all the parts fit together and were relationed, and a section that had the diminsions of each part floating in space. The sections would have some dimensions in parentheses, meaning that those were defined in relation to other parts, meaning I had to look at the design intent. A tricky thing I ran in to was that the cylinder's material changed to lead for the last step, something you might not notice on first inspection of the drawing.</p>
+
+<h2 name="VBLOCK">V-Block</h2>
+
+<h3>Description & Onshape Document</h3>
+<p>In this assignment, we were supposed to make a much simple part than the last one, from one drawing, and then modify it based off of subsequent drawings.</p>
+<a href="https://cvilleschools.onshape.com/documents/caf5e786b1bf6c64cb2e9ccd/w/de739c5a91059e34487da508/e/e20092cb6485a7cd21c79dfd">Onshape Document</a>
+
+<h3>Evidence</h3>
+<img src="media/VBLOCKQ1.png">
+<img src="media/VBLOCKQ2.png">
+<img src="media/VBLOCKQ3.png">
+<img src="media/VBLOCKQ4.png">
+<img src="media/VBLOCKQ5.png">
+
+
+<h3>Reflection</h3>
+<p>This was a pretty simple assignment, made even easier by the fact I had done it last year. Most of the work was done on one plane, with just the holes and the trough being separate. One issue I ran into was that when creating the versions, I missclicked and created it one change early. However, in a baffling design decision, onshape does not allow you to delete or change the location of versions, so there it stays.</p>
