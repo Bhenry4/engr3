@@ -16,6 +16,7 @@
 <li><a href="#SwingArm">Swing Arm</a></li>
 <li><a href="#MultiPartDesign">Multi Part Design Practice</a></li>
 <li><a href="#VBLOCK">V-Block</a></li>
+<li><a href="#AlignmentPlate">Alignment Plate</a></li>
 </ul><br>
 
 <h1>Code</h1>
@@ -146,3 +147,16 @@ https://github.com/Bhenry4/engr3/assets/82593996/76a8b65c-c936-4b85-b5dc-c69de8d
 
 <h3>Reflection</h3>
 <p>This was a pretty simple assignment, made even easier by the fact I had done it last year. Most of the work was done on one plane, with just the holes and the trough being separate. One issue I ran into was that when creating the versions, I missclicked and created it one change early. However, in a baffling design decision, onshape does not allow you to delete or change the location of versions, so there it stays.</p>
+
+<h2 name="AlignmentPlate">Alignment Plate</h2>
+
+<h3>Description & Onshape Document</h3>
+<p>In this assignment, we were supposed to make a much simpler part than the last one, from one drawing.</p>
+<a href="https://cvilleschools.onshape.com/documents/b0ecf75f53c4ccfc53e1159b/w/1d67a8f1057ac58f1fad1305/e/b36750629e36ccd497b22813?renderMode=0&uiState=654bef6f1bdc086edd1bd3ca">Onshape Document</a>
+
+<h3>Evidence</h3>
+<img src="media/AlignmentPlate.png">
+
+
+<h3>Reflection</h3>
+<p>This was a pretty simple assignment. I only needed one sketch to complete it, on the top plane, and it was made up of just two rectangles and six arcs. After that, it was just an extrude and a chamfer, and I finished in 10 minutes and 53 seconds.</p>
