@@ -17,6 +17,7 @@
 <li><a href="#MultiPartDesign">Multi Part Design Practice</a></li>
 <li><a href="#VBLOCK">V-Block</a></li>
 <li><a href="#AlignmentPlate">Alignment Plate</a></li>
+<li><a href="#MicStand">Mic Stand</a></li>
 </ul><br>
 
 <h1>Code</h1>
@@ -159,4 +160,20 @@ https://github.com/Bhenry4/engr3/assets/82593996/76a8b65c-c936-4b85-b5dc-c69de8d
 
 
 <h3>Reflection</h3>
-<p>This was a pretty simple assignment. I only needed one sketch to complete it, on the top plane, and it was made up of just two rectangles and six arcs. After that, it was just an extrude and a chamfer, and I finished in 10 minutes and 53 seconds.</p>
+<p>This was a pretty simple assignment. I only needed one sketch to complete it, on the top plane, and it was made up of just two rectangles and six arcs. After that, it was just an extrude and a chamfer. I finished in 10 minutes and 53 seconds.</p>
+
+<h2 name="MicStand">Mic Stand</h2>
+
+<h3>Description & Onshape Document</h3>
+<p>In this assignment, we had to make multiple parts based off of individual drawings and a design intent.</p>
+<a href="https://cvilleschools.onshape.com/documents/5893aaa51a9efa324c500153/w/65a2c9bd62bcaf87536d5cae/e/684a2cb6fc0b313408d8455f">Onshape Document</a>
+
+<h3>Evidence</h3>
+<img src="media/MicStandQ1.png">
+<img src="media/MicStandQ2.png">
+<img src="media/MicStandQ3.png">
+<img src="media/MicStandQ4.png">
+
+
+<h3>Reflection</h3>
+<p>This assignment was similar to the other multi-part studio assignment, with individual drawings and a design intent. </p>
