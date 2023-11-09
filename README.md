@@ -176,4 +176,4 @@ https://github.com/Bhenry4/engr3/assets/82593996/76a8b65c-c936-4b85-b5dc-c69de8d
 
 
 <h3>Reflection</h3>
-<p>This assignment was similar to the other multi-part studio assignment, with individual drawings and a design intent. Some of the parts used revolve, while others used extrude. I also made heavy use of the use tool.</p>
+<p>This assignment was similar to the other multi-part studio assignment, with individual drawings and a design intent. To make the base mic holder part, I used the use tool and extruded upward, then modeled the rest of the holder from the side. This was similar with the base, where I revolved the main shape, and then made an extrude for the hole. An interesting part of this was that we had to addd a screw for Q2, so I needed to put it in an assembly.</p>
