@@ -15,20 +15,21 @@ button.pull = digitalio.Pull.UP
 buttonPressed = False
 
 menuItems = ["go", "caution", "stop"]
+colorList = {"go": (0,255,0), "caution": (255,255,0), "stop": (255,0,0)}
 lastIndex = 0
 currentIndex = 0
 
 while True:
     if not button.value and not buttonPressed:
-        lcd.clear()
-        lcd.print("Button Pressed")
+        print("Button Pressed")
         buttonPressed = True
+        led[0] = colorList[menuItems[currentIndex%3]]
     if button.value and buttonPressed:
-        lcd.clear()
-        lcd.print("Button Released")
+        print("Button Released")
         buttonPressed = False
 
     currentIndex = encoder.position
     if not lastIndex == currentIndex:
-        print(currentIndex%3)
+        lcd.clear()
+        lcd.print(menuItems[currentIndex%3])
         lastIndex = currentIndex
