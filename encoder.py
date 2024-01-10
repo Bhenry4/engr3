@@ -5,17 +5,18 @@ import neopixel
 from lcd.lcd import LCD
 from lcd.i2c_pcf8574_interface import I2CPCF8574Interface
 
+#setting up inputs & outputs
 encoder = rotaryio.IncrementalEncoder(board.D4, board.D3, divisor=2)
 lcd = LCD(I2CPCF8574Interface(board.I2C(), 0x27), num_rows=2, num_cols=16)
 led = neopixel.NeoPixel(board.NEOPIXEL, 1, brightness=0.3)
-button = digitalio.DigitalInOut(board.D2)
+button = digitalio.DigitalInOut(board.D2) #button built into encoder
 
 button.direction = digitalio.Direction.INPUT
 button.pull = digitalio.Pull.UP
-buttonPressed = False
+buttonPressed = False #for debouncing
 
 menuItems = ["go", "caution", "stop"]
-colorList = {"go": (0,255,0), "caution": (255,255,0), "stop": (255,0,0)}
+colorList = {"go": (0,255,0), "caution": (255,255,0), "stop": (255,0,0)} #green, yellow, & red
 lastIndex = 0
 currentIndex = 0
 
