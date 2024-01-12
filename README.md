@@ -97,7 +97,7 @@ https://github.com/Bhenry4/engr3/assets/82593996/76a8b65c-c936-4b85-b5dc-c69de8d
 <img src="media/encoderWiring.png"><br>
 
 <h3>Reflection</h3>
-<p>To start off, I used the wiring  provided in the assignment to wire the photointerrupter. Additionally, the wires on the photointerrupter I grabbed were well color coded. The code was somewhat simple, just taking input with the <code>DigitalIO</code> library and incrementing a counter every time it activated. The tricky part came when I needed to print status every 4 seconds, due to <code>time.sleep()</code> stopping the code from counting. So, I used <code>time.monotonic()</code>, which says how many seconds have passed since the program start.</p>
+<p>This assignment had multiple parts. The first one was to read the input from the rotary encoder, which was pretty simple with the <code>rotaryio</code> library. The next step was to read the encoder button, which just presented itself as a normal button that could be read with <code>digitalio</code>. I then had code to cycle through a list of menu options and display them on an lcd screen with the <code> </p>
 
 <br><h1>CAD</h1>
 
