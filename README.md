@@ -91,13 +91,13 @@ https://github.com/Bhenry4/engr3/assets/82593996/76a8b65c-c936-4b85-b5dc-c69de8d
 <a href=encoder.py>Code</a><br><br>
 
 <h3>Evidence</h3>
-<img src="media/photointerrupter.png">
+
 
 <h3>Wiring</h3>
 <img src="media/encoderWiring.png"><br>
 
 <h3>Reflection</h3>
-<p>This assignment had multiple parts. The first one was to read the input from the rotary encoder, which was pretty simple with the <code>rotaryio</code> library. The next step was to read the encoder button, which just presented itself as a normal button that could be read with <code>digitalio</code>. I then had code to cycle through a list of menu options and display them on an lcd screen with the <code> </p>
+<p>This assignment had multiple parts. The first one was to read the input from the rotary encoder, which was pretty simple with the <code>rotaryio</code> library. The next step was to read the encoder button, which just presented itself as a normal button that could be read with <code>digitalio</code>. I then had code to cycle through a list of menu options and display them on an lcd screen with the <code>I2CPCF8574Interface</code> library. Finally, I had to let the user select an option with the button and display the corresponding color on the built in <code>neopixel</code>.</p>
 
 <br><h1>CAD</h1>
 
