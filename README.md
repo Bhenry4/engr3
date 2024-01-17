@@ -92,6 +92,7 @@ https://github.com/Bhenry4/engr3/assets/82593996/76a8b65c-c936-4b85-b5dc-c69de8d
 
 <h3>Evidence</h3>
 
+https://github.com/Bhenry4/engr3/assets/82593996/7e4bb634-e9d9-41b2-9493-7d1da7830b0c
 
 <h3>Wiring</h3>
 <img src="media/encoderWiring.png"><br>
