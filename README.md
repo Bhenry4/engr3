@@ -10,6 +10,7 @@
 <li><a href="#MotorControl">Motor Control</a></li>
 <li><a href="#Photointerrupter">Photointerrupter</a></li>
 <li><a href="#RotaryEncoder">Rotary Encoder</a></li>
+<li><a href="#StepperMotor">Stepper Motor</a></li>
 </ul>
 <h3>CAD</h3>
 <ul>
@@ -99,6 +100,22 @@ https://github.com/Bhenry4/engr3/assets/82593996/7e4bb634-e9d9-41b2-9493-7d1da78
 
 <h3>Reflection</h3>
 <p>This assignment had multiple parts. The first one was to read the input from the rotary encoder, which was pretty simple with the <code>rotaryio</code> library. The next step was to read the encoder button, which just presented itself as a normal button that could be read with <code>digitalio</code>. I then had code to cycle through a list of menu options and display them on an lcd screen with the <code>I2CPCF8574Interface</code> library. Finally, I had to let the user select an option with the button and display the corresponding color on the built in <code>neopixel</code>.</p>
+
+<h2 name="StepperMotor">Stepper Motor</h2>
+
+<h3>Description & Code</h3>
+<p>In this assignment, we were supposed to run a stepper motor and have it momentarily reverse when it activated a limit switch.</p>
+<a href=stepperMotor.py>Code</a><br><br>
+
+<h3>Evidence</h3>
+
+https://github.com/Bhenry4/engr3/assets/82593996/7e4bb634-e9d9-41b2-9493-7d1da7830b0c
+
+<h3>Wiring</h3>
+<img src="media/StepperMotor.png"><br>
+
+<h3>Reflection</h3>
+<p>This assignment had multiple parts. The first was to get the stepper motor running in each direction. I then had to read the input of the limit switch, which just read like a button. The challenging part was integrating the two, which the assignment had us do with <code>async</code> functions and the <code>asyncio</code> library.</p>
 
 <br><h1>CAD</h1>
 
