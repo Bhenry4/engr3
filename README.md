@@ -109,7 +109,7 @@ https://github.com/Bhenry4/engr3/assets/82593996/7e4bb634-e9d9-41b2-9493-7d1da78
 
 <h3>Evidence</h3>
 
-https://github.com/Bhenry4/engr3/assets/82593996/7e4bb634-e9d9-41b2-9493-7d1da7830b0c
+https://github.com/Bhenry4/engr3/assets/82593996/002abd8c-2a7d-455b-a615-cedb311a4cde
 
 <h3>Wiring</h3>
 <img src="media/StepperMotor.png"><br>
