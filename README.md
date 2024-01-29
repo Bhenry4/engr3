@@ -11,6 +11,7 @@
 <li><a href="#Photointerrupter">Photointerrupter</a></li>
 <li><a href="#RotaryEncoder">Rotary Encoder</a></li>
 <li><a href="#StepperMotor">Stepper Motor</a></li>
+<li><a href="#IRSensor">IR Sensor</a></li>
 </ul>
 <h3>CAD</h3>
 <ul>
@@ -116,6 +117,22 @@ https://github.com/Bhenry4/engr3/assets/82593996/002abd8c-2a7d-455b-a615-cedb311
 
 <h3>Reflection</h3>
 <p>This assignment had multiple parts. The first was to get the stepper motor running in each direction. I then had to read the input of the limit switch, which just read like a button. The challenging part was integrating the two, which the assignment had us do with <code>async</code> functions and the <code>asyncio</code> library.</p>
+
+<h2 name="IRSensor">IR Sensor</h2>
+
+<h3>Description & Code</h3>
+<p>In this assignment, we were supposed to use an active infrared sensor to detect if an object was nearby.</p>
+<a href=IRSensor.py>Code</a><br><br>
+
+<h3>Evidence</h3>
+
+https://github.com/Bhenry4/engr3/assets/82593996/002abd8c-2a7d-455b-a615-cedb311a4cde
+
+<h3>Wiring</h3>
+<img src="media/IRSensor.png"><br>
+
+<h3>Reflection</h3>
+<p>This assignment was pretty simple. There were only three wires to connect and the sensor just acts as a active low input. The code is made up of common idioms you will see when working with circuitpython.</p>
 
 <br><h1>CAD</h1>
 
