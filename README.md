@@ -126,7 +126,7 @@ https://github.com/Bhenry4/engr3/assets/82593996/002abd8c-2a7d-455b-a615-cedb311
 
 <h3>Evidence</h3>
 
-https://github.com/Bhenry4/engr3/assets/82593996/002abd8c-2a7d-455b-a615-cedb311a4cde
+https://github.com/Bhenry4/engr3/assets/82593996/07c4626f-fe0f-46c2-8a9a-72308f5c98f3
 
 <h3>Wiring</h3>
 <img src="media/IRSensor.png"><br>
