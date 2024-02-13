@@ -126,7 +126,7 @@ https://github.com/Bhenry4/engr3/assets/82593996/002abd8c-2a7d-455b-a615-cedb311
 
 <h3>Evidence</h3>
 
-https://github.com/Bhenry4/engr3/assets/82593996/07c4626f-fe0f-46c2-8a9a-72308f5c98f3
+https://github.com/Bhenry4/engr3/assets/82593996/002abd8c-2a7d-455b-a615-cedb311a4cde
 
 <h3>Wiring</h3>
 <img src="media/IRSensor.png"><br>
@@ -225,6 +225,26 @@ https://github.com/Bhenry4/engr3/assets/82593996/07c4626f-fe0f-46c2-8a9a-72308f5
 <img src="media/MicStandQ3.png">
 <img src="media/MicStandQ4.png">
 
-
 <h3>Reflection</h3>
 <p>This assignment was similar to the other multi-part studio assignment, with individual drawings and a design intent. To make the base mic holder part, I used the use tool and extruded upward, then modeled the rest of the holder from the side. This was similar with the base, where I revolved the main shape, and then made an extrude for the hole. An interesting part of this was that we had to addd a screw for Q2, so I needed to put it in an assembly.</p>
+
+
+<h2 name="Gripper">Gripper</h2>
+
+<h3>Description & Onshape Document</h3>
+<p>This assignment was quite open ended, requiring us only to fulfill four requirements:</p>
+<ol>
+<li>Using only one actuator</li>
+<li>Being able to fully close</li>
+<li>Being made out of 3d-printed and laser cut parts, and standard content</li>
+<li>Being fully assembled and animated in onshape</li>
+</ol>
+
+<a href="https://cvilleschools.onshape.com/documents/acc4baa10860d3a51873e543/w/872959f950d0d97b5930dd07/e/f32028c9d33e5ddc8b4b9252">Onshape Document</a>
+
+<h3>Evidence</h3>
+<img src="media/Gripper.png">
+<img src="media/Gripper.gif">
+
+<h3>Reflection</h3>
+<p>The design I decided to go with had two parts to the clamp attached to a plate to keep proper positioning. Gears built into the clamps allow both clamps to move with only one actuator. Finally, laser cut discs attach the posts to the plate and allow rotation through channels cut in them that also provide hard stops for the movement.</p>
