@@ -21,6 +21,7 @@
 <li><a href="#VBLOCK">V-Block</a></li>
 <li><a href="#AlignmentPlate">Alignment Plate</a></li>
 <li><a href="#MicStand">Mic Stand</a></li>
+<li><a href="#Gripper">Gripper</a></li>
 </ul><br>
 
 <h1>Code</h1>
