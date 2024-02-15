@@ -246,6 +246,7 @@ https://github.com/Bhenry4/engr3/assets/82593996/002abd8c-2a7d-455b-a615-cedb311
 <h3>Evidence</h3>
 <img src="media/Gripper.png">
 <img src="media/Gripper.gif">
+<img src="media/GripperBOM.png">
 
 <h3>Reflection</h3>
 <p>The design I decided to go with had two parts to the clamp attached to a plate to keep proper positioning. Gears built into the clamps allow both clamps to move with only one actuator. Finally, laser cut discs attach the posts to the plate and allow rotation through channels cut in them that also provide hard stops for the movement.</p>
