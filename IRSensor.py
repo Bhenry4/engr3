@@ -16,3 +16,4 @@ while True: #runs until True equals False
     if not IRSensor.value: #runs if IRSensor.value does not equal True
         print("Object detected") #calls function print with value "Object detected"
         led[0] = colors["green"] #sets value at position zero of list led to the value corresponding to the key "green" in the dict colors
+        #test
